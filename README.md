@@ -2,6 +2,8 @@
 
 A lightweight macos app, with a text-based note-taking interface for Obsidian
 
+Wrote about it here - https://divyashivaram.substack.com/p/a-drop-area-for-my-notes-notecat
+
 ## what is notecat
 
 notecat opens a simple text interface that you can access via Spotlight. It lets you quickly jot down thoughts, ideas, and links directly into your Obsidian vault without the overhead of launching the full Obsidian app.
