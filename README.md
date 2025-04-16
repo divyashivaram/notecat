@@ -1,6 +1,6 @@
 # notecat
 
-A lightweight, text-based note-taking interface for Obsidian
+A lightweight macos app, with a text-based note-taking interface for Obsidian
 
 ## what is notecat
 
@@ -10,7 +10,7 @@ notecat opens a simple text interface that you can access via Spotlight. It lets
 
 Sometimes I have fleeting ideas, links, or notes you'd like to capture instantly. While Slack personal chat is convenient, it isn’t integrated with my Obsidian "second brain". Opening Obsidian and navigating to the right folder interrupts my flow and dilutes the original thought.
 
-## Why I love it
+## why I love it
 
 **Instant access**: Launch via Spotlight (⌘+Space).
 
@@ -20,6 +20,6 @@ Sometimes I have fleeting ideas, links, or notes you'd like to capture instantly
 
 **Searchable**: Find your notes later using Obsidian’s search.
 
-## Installation
+## installation
 
 Clone and open in xcode + cmd R
