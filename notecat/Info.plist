@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>com.yourname.notecat</string>
+    <key>CFBundleDisplayName</key>
+    <string>NoteCat</string>
+    <key>CFBundleName</key>
+    <string>NoteCat</string>
+    <key>CFBundleExecutable</key>
+    <string>NoteCat</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleVersion</key>
+    <string>1.0</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>10.13</string>
+    <!-- Add entitlements for security-scoped bookmarks -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+    <!-- File access permissions -->
+    <key>NSDocumentsFolderUsageDescription</key>
+    <string>NoteCat needs access to save notes to your Obsidian vault</string>
+    <key>NSDownloadsFolderUsageDescription</key>
+    <string>NoteCat needs access to save notes to your Obsidian vault</string>
+</dict>
+</plist>

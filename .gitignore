@@ -1,0 +1,40 @@
+# Xcode build artifacts
+build/
+DerivedData/
+
+# User‑specific project settings
+*.xcuserdatad/
+*.xcuserstate
+xcuserdata/
+
+# Workspace Schemes (unless you deliberately share them)
+*.xccheckout
+*.xcscmblueprint
+
+# Cocoapods (if you vendor pods you may want to commit them,
+# but usually you ignore the Pods/ folder and commit your Podfile/Podfile.lock)
+Pods/
+
+# Carthage/SwiftPM checkouts & artifacts
+Carthage/Build/
+.swiftpm/
+Packages/
+
+# Xcode archives and installers
+*.xcarchive
+*.ipa
+*.dmg
+
+# macOS Finder junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon musty files
+Icon?
+
+# Certificate and key material—NEVER check these in!
+*.p12
+*.mobileprovision
+*.cer
+
